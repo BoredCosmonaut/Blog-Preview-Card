@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+html {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+}
+#main-card {
+    box-shadow: 8px 0px 0px 2px #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: 2% auto;
+    width: 400px;
+    height: auto;
+}
+
+#image-container {
+    border-radius: 20px;
+    align-self: center;
+    align-items: center;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+}
+
+#image {
+    border-radius: 20px;
+    display: flex;
+    width: 90%;
+    height: 90%;
+}
+
+#text-block{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+#learning {
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 20%;
+    background-color: yellow;
+    padding: 1% 1% 1% 2%;
+}
+
+#date {
+    font-size: 17px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+
+#text {
+    font-size: 17px;
+    width: 95%;
+}
+
+#profile {
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+
+#profile-image-container {
+    display: flex;
+    width: 20%;
+    height: auto;
+}
+
+#profile-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#name {
+    margin-top: 4%;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
